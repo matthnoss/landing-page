@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.right-links{
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black; /* change the color later */
+}
+
+.under-footer {
+    display: flex;
+}
+
+.main-part-under-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-img {
+    width: 300px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 18px;
+}
+
+.main-part {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.images-and-text {
+    display: flex;
+}
