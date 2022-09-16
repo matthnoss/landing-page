@@ -200,3 +200,15 @@ a {
     text-align: center;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.copyright-txt {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: white;
+}
