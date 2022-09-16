@@ -67,20 +67,33 @@ a {
 }
 
 .image {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    width: 165px;
+    height: 165px;
     border: 3px solid #3882F6;
     border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.main-text-mp {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #152937;
+    margin-bottom: 30px;
 }
 
 .main-part {
-    margin-top: 100px; /*remove margin later */
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
 .images-and-text {
     display: flex;
+    flex: auto;
+    justify-content: space-around;
 }
 
 .review {
@@ -119,4 +132,14 @@ a {
     margin-top: 10px;
     background-color: #3882F6;
     color: white;
+}
+
+.img-text1,
+.img-text2,
+.img-text3,
+.img-text4 {
+    max-width: 165px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
