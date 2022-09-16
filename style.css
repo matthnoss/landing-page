@@ -133,10 +133,46 @@ a {
 
 .box {
     display: flex;
+    background-color: #3882F6;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px;
+}
+
+#cta-main-txt{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#cta-secondary-txt {
+    color: white;
+    font-weight: lighter;
+}
+
+#signup-btn-cta {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #3882F6;
+    font-size: large;
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    color: white;
 }
 
 .right-part-cta {
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -163,3 +199,4 @@ a {
     flex-direction: column;
     text-align: center;
 }
+
