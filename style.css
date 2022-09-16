@@ -91,6 +91,8 @@ a {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 .images-and-text {
@@ -104,11 +106,25 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    height: 450px;
+    justify-content: center;
+}
+
+.quote {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 #user-text {
     display: flex;
     justify-content: flex-end;
+    margin-right: 150px;
+    font-weight: bold;
 }
 
 .call-to-action {
