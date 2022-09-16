@@ -61,9 +61,12 @@ a {
 }
 
 #main-img {
+    display: flex;
     width: 300px;
+    height: 190px;
     margin-left: auto;
     padding-right: 100px;
+    flex-shrink: 0;
 }
 
 .image {
@@ -100,6 +103,7 @@ a {
     margin-top: 100px; /*remove margin later */
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
 }
 
 #user-text {
