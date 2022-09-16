@@ -15,8 +15,8 @@ html {
     padding-bottom: 65px;
     background-color: #1F2937;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 20px;
 }
 
@@ -32,11 +32,13 @@ html {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding-left: 100px;
 }
 
 .under-main-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding-left: 100px;
 }
 
 a {
@@ -58,6 +60,7 @@ a {
 #main-img {
     width: 300px;
     margin-left: auto;
+    padding-right: 100px;
 }
 
 .image {
@@ -103,3 +106,4 @@ a {
 .footer {
     margin-top: 100px; /*remove margin later */
 }
+
